@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main ul li{
+   list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fce410;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fce410;
+  }
+.main{
+    width: 100%;
+    height: 678px;
+    background: rgb(209, 221, 45);
+    background-position: center;
+    background-size: contain;
+}
+
+.second_header{
+    background-color: rgb(15, 10, 10);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.second_header ul{
+    display: inline-flex;
+    height: 100px;
+}
+
+.home{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+    
+}
+.home a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.home a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.home :active{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.services{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.services a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.services a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.projects{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.projects a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.projects a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.about{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.about a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.about a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.search{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.search input{
+    border: solid rgb(0, 0, 0) 1px;
+    height: 30px;
+    background-color: rgb(36, 30, 30);
+    color: white;
+}
+
+.search button{
+     color: black;
+     background-color: yellow;
+     border: none;
+     border-radius: 6px;
+     height: 28px;
+     margin-left: 10px;
+     font-weight: bolder;
+     text-align: center;
+     cursor: pointer;
+     padding: 7px 15px 7px 15px;
+}
+.search button:hover{
+    background-color: #20201c;
+    color: #fce410;
+}
+.secondlogo{
+    margin-left: -60px;
+    margin-top: 20px;     
+}
+.facebook{
+    margin-top: 34px;
+    margin-left: 40px;
+}
+.facebook a{
+    color: aliceblue;
+    font-size: 17px;
+}
+.facebook a:hover{
+    color: yellow;
+}
+.linkedin{
+    margin-top: 34px;
+    margin-left: 20px;
+}
+.linkedin a{
+    color: aliceblue;
+    font-size: 17px;
+}
+.linkedin a:hover{
+    color: yellow;
+}
+
+.imagecontainer img{
+    margin-top: 160px;
+    margin-left: 70px;
+}
+.introtext{
+  
+    margin-left: 600px;
+    margin-top: -420px;
+}
+.dev-text h1{
+     background-color: #000000;
+     width: max-content;
+     font-size: 43px;
+     color: #fce410;
+     font-family: 'Poppins', sans-serif;
+}
+.dev-text h2{
+    margin-top: 30px;
+}
+.dev-text p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.dev-text .buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.buttons a{
+     text-decoration: none;
+     font-size: 17px;
+     color: #fce410;
+}
+ .buttons button:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+
+#services{
+    width: 100%;
+    height: 708px;
+    background-color: rgb(209, 221, 45);
+    
+}
+#services h1{
+    margin-left: 40%;
+    font-size: 44px;
+    width: max-content;
+    color: rgb(0, 0, 0);
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+.servicecontainer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    column-gap: 20px;
+    margin-top: 60px;
+}
+.design{
+    border: 1px solid rgb(186, 199, 68);
+   margin-left: 100px;
+   height: 300px;
+   width: 300px;
+   padding: 30px;
+   border-radius: 8px;
+   cursor: pointer;
+
+}
+.design:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+@keyframes anime {
+    100%{
+        box-shadow: 2px 2px 10px 3px rgb(142, 146, 62);
+    }
+}
+.design img{
+    margin-left: 36%;
+    width: 20%;
+}
+.webdevelopment{
+    border: 1px solid rgb(186, 199, 68);
+    margin-left: 60px;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.webdevelopment img{
+    margin-left: 36%;
+    width: 20%;
+}
+.webdevelopment:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+.training{
+    border: 1px solid rgb(186, 199, 68);
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.training img{
+    margin-left: 36%;
+    width: 20%;
+}
+.training:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+
+.first_txt {
+    margin-top: 10px;
+
+}
+.second_txt {
+    margin-top: 10px;
+}
+.third_txt {
+    margin-top: 10px;
+}
+.projects-show{
+    width: 83.5%;
+    margin-top: 30px;
+    margin-left: 7.7%;
+    height: 150px;
+    border: 1px solid rgb(186, 199, 68);
+    border-radius: 8px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.projects-show:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+.project-txt{
+   color: #20201c;
+   padding: 20px ;
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 17px;
+   font-family: 'Poppins', sans-serif;
+}
+.projects-show h4{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.projects-show input{
+    background: transparent;
+    border: none;
+    text-align: center;
+    margin-left: -18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.projects-show input:focus{
+    background: transparent;
+    border: none;
+    
+}
+.webdesign{
+    color: #20201c;
+    text-align: center;
+}
+.webd{
+    color: #20201c;
+    text-align: center;
+}
+.seo{
+    color: #20201c;
+    text-align: center;
+}
+.branding{
+    color: #20201c;    
+    text-align: center;
+}
+
+.portfolio{
+    width: 100%;
+    height: 768px;
+    background-color: rgb(209, 221, 45);
+}
+.portfolio-head{
+    margin-left: 35%;
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+
+.pro-contain{
+    width: 100%;
+    height: 658px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 30% 30% 30%;
+    column-gap: 8px;
+    row-gap: 15px;
+    grid-template-areas: 
+     "onepro onepro twopro"
+     "threepro fourpro fourpro"
+     "fivepro fivepro fivepro"
+    ;
+    margin-top: 60px;
+    
+}
+.onepro{
+   grid-area: onepro;
+   text-align: center;
+   border: none;
+   margin-left:  100px;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   cursor: pointer;
+   border-radius: 6px;
+   background-color: #a5a52d;
+}
+.onepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.twopro{
+  grid-area: twopro;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+.twopro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.threepro{
+    grid-area: threepro;
+    text-align: center;
+    border: none;
+    margin-left:  100px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.threepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.fourpro{
+    grid-area: fourpro;
+    text-align: center;
+    border: none;
+    display: grid;
+   grid-template-columns: 40% 60%;
+   cursor: pointer;
+   border-radius: 6px;
+   background-color: #a5a52d;
+}
+.fourpro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.fivepro{ 
+    grid-area: fivepro;
+    text-align: center;
+    border: none;
+    margin-left:  100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #a5a52d;
+}
+.fivepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+@keyframes anim {
+    100%{
+        box-shadow: 2px 2px 10px 3px rgb(148, 148, 31);
+    }
+}
+.txt1{
+    text-align: start;
+}
+.txt2{
+    text-align: start;
+}
+.txt3{
+    text-align: start;
+}
+.aboutmain{
+    width: 100%;
+    height: 768px;
+    background-color: rgb(209, 221, 45);
+    display: grid;
+    grid-template-columns: 2% 30% 30% 30%;
+    grid-template-rows: 10% 40% 40% 5%;
+    grid-template-areas: 
+    "papa papa papa papa"
+    "abtone abtone abttwo abttwo"
+    "abtthree abtthree abtfour abtfour"
+    "copy copy copy copy"
+    ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.copyrights{
+  grid-area: copy;
+}
+.abt-one {
+   grid-area: abtone;
+   display: block;
+   width: 100%;
+   height: 100%;
+   border: 1px slid;
+   background-color: #a5a52d07;
+   margin-left: 40px;
+   
+}
+.abt-two{
+    grid-area: abttwo;
+    background-color: #a5a52d07;
+    margin-left: 40px;
+    padding: 20px;
+}
+.abt-three{
+    padding-top: 40px;
+    grid-area: abtthree;
+    background-color: #a5a52d07;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 40% 40%;
+    margin-top: 30px;
+    
+}
+.abt-four{
+    grid-area: abtfour;
+    background-color: #a5a52d07;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 50% 50%;
+    margin-left: 40px;
+}
+.aboutmain h1{
+    grid-area: papa;
+    background-color: transparent;
+    margin-left: 45%;
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+.abt-three a{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.abt-three a:hover{
+    color: #361a1a;
+    text-decoration: underline;
+}
+.twopro .tech {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 16px;
+}
+.tech a{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.tech a:hover{
+    color: #8b2d2d;
+    text-decoration: underline;
+}

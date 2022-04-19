@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DesignFreakers | Home</title>
+      <!-- Normal our own CSS3 -->
+     <!-- animejs cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+     <!-- AOS library cdn link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- link for progress bar (external library) -->
+     
+     <style>
+         /* inline css */
+         .babyone{
+             background: url(https://drive.google.com/uc?export=download&id=1mu7_uWCNodnig5m0M9QvCOJv1UoWU1Rv);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+         }
+         .babytwo{
+             background: url(https://drive.google.com/uc?export=download&id=1Fxu7L83m1qDUM84fvsrQN3iwEjaxeRLEy);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+         }
+         .babythree{
+             background: url(https://drive.google.com/uc?export=download&id=1hchjHG3eiPR56RX-ZvqL8kHzO6CrrLq1);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+         }
+         .coloor{
+             color: aliceblue;
+             font-size: 43px;
+             font-family: 'Poppins', sans-serif;
+         }
+         .pointy{
+             font-size: 13px;
+             color: rgb(0, 0, 0);
+         }
+         .abt-one{
+             background: url(https://drive.google.com/uc?export=download&id=1zj86a722_xhvg1J-a4inXMPUhXdQubJR);
+             background-position: center;
+             background-size: contain;
+             background-repeat: no-repeat;
+         }
+         .twopro{
+             background-image: url(https://drive.google.com/uc?export=download&id=1eW7HtZQYpnZArE_OXnKLApmzEAm0_Fby);
+             background-position: center;
+             background-size: contain;
+             background-repeat: no-repeat;
+         }
+         .threepro{
+             background: url(https://drive.google.com/uc?export=download&id=1CoTsdLnVS3EwtZGwTbH0VvG6taQC9vzF);
+             background-position: center;
+             background-size: contain;
+             background-repeat: no-repeat;
+         }
+         
+
+
+
+
+         /* progres anime */
+         .ldBar {
+    position: relative;
+  }
+  .ldBar.label-center > .ldBar-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 3px #fff;
+  }
+  .ldBar-label:after {
+    content: "%";
+    display: inline;
+  }
+  .ldBar.no-percent .ldBar-label:after {
+    content: "";
+  }
+
+
+
+  /* style.css */
+
+  
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main ul li{
+   list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fce410;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fce410;
+  }
+.main{
+    width: 100%;
+    height: 678px;
+    background: rgb(209, 221, 45);
+    background-position: center;
+    background-size: contain;
+}
+
+.second_header{
+    background-color: rgb(15, 10, 10);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.second_header ul{
+    display: inline-flex;
+    height: 100px;
+}
+
+.home{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+    
+}
+.home a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.home a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.home :active{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.services{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.services a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.services a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.projects{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.projects a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.projects a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.about{
+    font-size: 19px;
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.about a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.about a:hover{
+    color: black;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.search{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.search input{
+    border: solid rgb(0, 0, 0) 1px;
+    height: 30px;
+    background-color: rgb(36, 30, 30);
+    color: white;
+}
+
+.search button{
+     color: black;
+     background-color: yellow;
+     border: none;
+     border-radius: 6px;
+     height: 28px;
+     margin-left: 10px;
+     font-weight: bolder;
+     text-align: center;
+     cursor: pointer;
+     padding: 7px 15px 7px 15px;
+}
+.search button:hover{
+    background-color: #20201c;
+    color: #fce410;
+}
+.secondlogo{
+    margin-left: -60px;
+    margin-top: 20px;     
+}
+.facebook{
+    margin-top: 34px;
+    margin-left: 40px;
+}
+.facebook a{
+    color: aliceblue;
+    font-size: 17px;
+}
+.facebook a:hover{
+    color: yellow;
+}
+.linkedin{
+    margin-top: 34px;
+    margin-left: 20px;
+}
+.linkedin a{
+    color: aliceblue;
+    font-size: 17px;
+}
+.linkedin a:hover{
+    color: yellow;
+}
+
+.imagecontainer img{
+    margin-top: 160px;
+    margin-left: 70px;
+}
+.introtext{
+  
+    margin-left: 600px;
+    margin-top: -420px;
+}
+.dev-text h1{
+     background-color: #000000;
+     width: max-content;
+     font-size: 43px;
+     color: #fce410;
+     font-family: 'Poppins', sans-serif;
+}
+.dev-text h2{
+    margin-top: 30px;
+}
+.dev-text p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.dev-text .buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.buttons a{
+     text-decoration: none;
+     font-size: 17px;
+     color: #fce410;
+}
+ .buttons button:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+
+#services{
+    width: 100%;
+    height: 708px;
+    background-color: rgb(209, 221, 45);
+    
+}
+#services h1{
+    margin-left: 40%;
+    font-size: 44px;
+    width: max-content;
+    color: rgb(0, 0, 0);
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+.servicecontainer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    column-gap: 20px;
+    margin-top: 60px;
+}
+.design{
+    border: 1px solid rgb(186, 199, 68);
+   margin-left: 100px;
+   height: 300px;
+   width: 300px;
+   padding: 30px;
+   border-radius: 8px;
+   cursor: pointer;
+
+}
+.design:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+@keyframes anime {
+    100%{
+        box-shadow: 2px 2px 10px 3px rgb(142, 146, 62);
+    }
+}
+.design img{
+    margin-left: 36%;
+    width: 20%;
+}
+.webdevelopment{
+    border: 1px solid rgb(186, 199, 68);
+    margin-left: 60px;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.webdevelopment img{
+    margin-left: 36%;
+    width: 20%;
+}
+.webdevelopment:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+.training{
+    border: 1px solid rgb(186, 199, 68);
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.training img{
+    margin-left: 36%;
+    width: 20%;
+}
+.training:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+
+.first_txt {
+    margin-top: 10px;
+
+}
+.second_txt {
+    margin-top: 10px;
+}
+.third_txt {
+    margin-top: 10px;
+}
+.projects-show{
+    width: 83.5%;
+    margin-top: 30px;
+    margin-left: 7.7%;
+    height: 150px;
+    border: 1px solid rgb(186, 199, 68);
+    border-radius: 8px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.projects-show:hover{
+    animation: anime 800ms linear 0s 1 both;
+}
+.project-txt{
+   color: #20201c;
+   padding: 20px ;
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 17px;
+   font-family: 'Poppins', sans-serif;
+}
+.projects-show h4{
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.projects-show input{
+    background: transparent;
+    border: none;
+    text-align: center;
+    margin-left: -18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.projects-show input:focus{
+    background: transparent;
+    border: none;
+    
+}
+.webdesign{
+    color: #20201c;
+    text-align: center;
+}
+.webd{
+    color: #20201c;
+    text-align: center;
+}
+.seo{
+    color: #20201c;
+    text-align: center;
+}
+.branding{
+    color: #20201c;    
+    text-align: center;
+}
+
+.portfolio{
+    width: 100%;
+    height: 768px;
+    background-color: rgb(209, 221, 45);
+}
+.portfolio-head{
+    margin-left: 35%;
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+
+.pro-contain{
+    width: 100%;
+    height: 658px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 30% 30% 30%;
+    column-gap: 8px;
+    row-gap: 15px;
+    grid-template-areas: 
+     "onepro onepro twopro"
+     "threepro fourpro fourpro"
+     "fivepro fivepro fivepro"
+    ;
+    margin-top: 60px;
+    
+}
+.onepro{
+   grid-area: onepro;
+   text-align: center;
+   border: none;
+   margin-left:  100px;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   cursor: pointer;
+   border-radius: 6px;
+   background-color: #a5a52d;
+}
+.onepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.twopro{
+  grid-area: twopro;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+.twopro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.threepro{
+    grid-area: threepro;
+    text-align: center;
+    border: none;
+    margin-left:  100px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.threepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.fourpro{
+    grid-area: fourpro;
+    text-align: center;
+    border: none;
+    display: grid;
+   grid-template-columns: 40% 60%;
+   cursor: pointer;
+   border-radius: 6px;
+   background-color: #a5a52d;
+}
+.fourpro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+
+
+.fivepro{ 
+    grid-area: fivepro;
+    text-align: center;
+    border: none;
+    margin-left:  100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #a5a52d;
+}
+.fivepro:hover{
+    animation: anim 800ms linear 0s 1 both;
+}
+@keyframes anim {
+    100%{
+        box-shadow: 2px 2px 10px 3px rgb(148, 148, 31);
+    }
+}
+.txt1{
+    text-align: start;
+}
+.txt2{
+    text-align: start;
+}
+.txt3{
+    text-align: start;
+}
+.aboutmain{
+    width: 100%;
+    height: 768px;
+    background-color: rgb(209, 221, 45);
+    display: grid;
+    grid-template-columns: 2% 30% 30% 30%;
+    grid-template-rows: 10% 40% 40% 5%;
+    grid-template-areas: 
+    "papa papa papa papa"
+    "abtone abtone abttwo abttwo"
+    "abtthree abtthree abtfour abtfour"
+    "copy copy copy copy"
+    ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.copyrights{
+  grid-area: copy;
+}
+.abt-one {
+   grid-area: abtone;
+   display: block;
+   width: 100%;
+   height: 100%;
+   border: 1px slid;
+   background-color: #a5a52d07;
+   margin-left: 40px;
+   
+}
+.abt-two{
+    grid-area: abttwo;
+    background-color: #a5a52d07;
+    margin-left: 40px;
+    padding: 20px;
+}
+.abt-three{
+    padding-top: 40px;
+    grid-area: abtthree;
+    background-color: #a5a52d07;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 40% 40%;
+    margin-top: 30px;
+    
+}
+.abt-four{
+    grid-area: abtfour;
+    background-color: #a5a52d07;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 50% 50%;
+    margin-left: 40px;
+}
+.aboutmain h1{
+    grid-area: papa;
+    background-color: transparent;
+    margin-left: 45%;
+    text-shadow:   2px 2px 5px rgb(0, 0, 0);
+}
+.abt-three a{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.abt-three a:hover{
+    color: #361a1a;
+    text-decoration: underline;
+}
+.twopro .tech {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 16px;
+}
+.tech a{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.tech a:hover{
+    color: #8b2d2d;
+    text-decoration: underline;
+}
+  
+     </style>
+</head>
+<body>
+    <!-- this is for home -->
+    <main class="main" id="home">
+        
+      
+         <div class="main_home">
+              <div class="imagecontainer" data-aos="fade-left"
+              data-aos-duration="1000">
+                   <img src="https://drive.google.com/uc?export=download&id=1-Bc_xaCklMxqFlEo-kuoKlHR-WKc6BXV" alt="" width="30%" height="80%">
+              </div>
+              <div class="introtext" data-aos="fade-right"
+              data-aos-duration="1000">
+                  <div class="dev-text">
+                     <h1> Full-<span class="coloor">Stack</span>-Developer</h1>
+                     <h2>Talk me is cheap <br>
+                       Show me the code
+                    </h2>
+                    <p>I'm a Developer who Dated with Java in the wolrd of webdevelopment <br>
+                      Based in Taminadu,India.I design and code beautifully simple things <br>
+                      And I love what I do.Then I started my Career as a UI&UX Designer <br>
+                      So I know Color typography,wireframe and even know about Logo <br>
+                      Designing and Branding with SEO and Digital Markertting.  
+                    </p>
+                   <div class="buttons">
+                    <button class="info"><a href="#about">More Info</a></button> <button class="started"><a href="#services">Get started</a></button>
+                   </div>
+                  </div>
+                  
+              </div>
+         </div> 
+    <!-- this place for put scroll down  -->
+    </main>
+    <!-- home part ended -->
+
+
+    <!-- services started -->
+
+
+    <main id="services">
+         <h1 data-aos="fade-up"
+         data-aos-duration="2000">Our Services</h1>
+
+         <!-- conatiner for contain services -->
+
+       
+          <div class="servicecontainer">
+               <!-- first service       -->
+               <div class="design" data-aos="fade-up"
+               data-aos-duration="3000" >
+                     <div class="icon1">
+                         <img src="https://drive.google.com/uc?export=download&id=1hJVDUzYVp4fOtRkg3bZBqSD2lYxJrZuw" alt="">
+                     </div>
+                     <div class="first_txt">
+                         <h4>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. Aliquam reiciendis cum veritatis minima ab cupiditate deleniti  quia veniam beatae.
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. 
+                         </h4>
+                     </div>
+                </div>
+               <!-- second one -->
+                <div class="webdevelopment" data-aos="fade-up"
+                data-aos-duration="3000" >
+                     <div class="icon2">
+                       <img src="https://drive.google.com/uc?export=download&id=1FOnZ6tRRQebFRQ_yhX5n_6aCtBEdEHkj" alt="">
+                     </div>
+                     <div class="second_txt">
+                         <h4>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. Aliquam reiciendis cum veritatis minima ab cupiditate deleniti  quia veniam beatae.
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. 
+                         </h4>
+                     </div>
+                 </div>
+                <!-- third one -->
+                <div class="training" data-aos="fade-up"
+                data-aos-duration="3000" >
+                     <div class="icon3">
+                       <img src="https://drive.google.com/uc?export=download&id=1LogzausPN9QmdG1DOnS_3vbp5skBR2ME" alt="">
+                     </div>
+                     <div class="third_txt">
+                         <h4>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. Aliquam reiciendis cum veritatis minima ab cupiditate deleniti  quia veniam beatae.
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Dignissimos deleniti sed  quam ratione similique nostrum rem soluta 
+                              quae numquam. 
+                         </h4>
+                     </div>
+                </div>
+            </div>
+         <div class="projects-show" onmouseover="animation()" data-aos="fade-up"
+         data-aos-duration="3000">
+             <div class="project-txt">
+                 <h3>Look <br>
+                  How much <br>
+                  I create 
+               </h3>
+             </div>
+             <div class="webdesign">
+                  <h4>Design</h4>
+                  <h5>Completed Projects</h5>
+                  <input type="text" class="one" value="454">
+             </div>
+             <div class="webd">
+                  <h4>Websites</h4>
+                  <h5>Completed Projects</h5>
+                  <input type="text" class="two" value="53">
+             </div>
+             <div class="seo">
+                   <h4>SEO</h4>
+                   <h5>Completed Projects</h5>
+                   <input type="text" class="three" value="14">
+             </div>
+             <div class="branding">
+                   <h4>Branding</h4>
+                   <h5>Completed Projects</h5>
+                   <input type="text" class="four" value="257">
+             </div>
+         </div>
+    </main>
+  
+    <main class="portfolio" id="projects">
+        <h1 class="portfolio-head" data-aos="fade-down"
+        data-aos-duration="2000">Look Down For Portfolio</h1>
+         <div class="pro-contain">
+             <div class="onepro" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
+                 <div class="babyone">
+                     <!-- image fitted -->
+                 </div>
+                 <div class="txt1" style="padding: 4px;">
+                     <h4 style="margin-left: 25%; margin-top: 5px; font-family: 'Poppins', sans-serif;">My First Portfolio Website</h4><br>
+                     <h4 style="font-family: 'Poppins', sans-serif;">Technologies Used :</h4>
+                     <tr>
+                         <td>HTML5,CSS3,Bootstrap,Javascript</td>
+                     </tr>
+                     <h4 style="font-family: 'Poppins', sans-serif;">Description :</h4>
+                     <p class="pointy" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempora ipsum dolorum ducimus alias autem pariatur fugiat odio possimus quia 
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     </p>
+                 </div>
+             </div>
+
+             <div class="twopro" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
+    
+            </div>
+
+             <div class="threepro" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1500" >
+            </div>
+
+             <div class="fourpro" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1500" >
+                <div class="babytwo">
+                    <!-- image fitted -->
+                </div>
+                <div class="txt2" style="padding: 5px;">
+                    <h4 style="margin-left: 25%; margin-top: 5px; font-family: 'Poppins', sans-serif;">Books Rating Website</h4><br>
+                     <h4 style="font-family: 'Poppins', sans-serif;">Technologies Used :</h4>
+                     <tr>
+                         <td>HTML5,CSS3,Bootstrap,Javascript,AOS,GSAP</td>
+                     </tr>
+                     <h4 style="font-family: 'Poppins', sans-serif;">Description :</h4>
+                     <p class="pointy" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempora ipsum dolorum ducimus alias autem pariatur fugiat odio possimus quia 
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     </p>
+                </div>
+             </div>
+
+             <div class="fivepro" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="2000" >
+                <div class="txt3" style="padding: 5px;">
+                    <h4 style="margin-left: 25%; margin-top: 5px; font-family: 'Poppins', sans-serif;">Personal Website</h4><br>
+                    <h4 style="font-family: 'Poppins', sans-serif;">Technologies Used :</h4>
+                    <tr>
+                        <td>HTML5,CSS3,Bootstrap,Tailwind,Lunacy,Javascript,AOS,GSAP</td>
+                    </tr>
+                    <h4 style="font-family: 'Poppins', sans-serif;">Description :</h4>
+                    <p class="pointy" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempora ipsum dolorum ducimus alias autem pariatur fugiat odio possimus quia 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta dignissimos et aut officia voluptatibus, minus voluptate. Debitis iusto amet eum sed maiores totam, corrupti, numquam nobis perspiciatis 
+                    </p>
+                </div>
+                <div class="babythree">
+                    <!-- image fitted -->
+                </div>
+             </div>
+         </div>
+    </main>
+    <main id="about">
+           <div class="aboutmain">
+            <h1>About Me</h1>
+              <div class="abt-one">
+                 <!-- image fitted -->
+              </div>
+              <div class="abt-two">
+                 <h6>Introduce</h6> <br>
+                 <h4>Hello! I'm Nithish <br> Kumar Thiruchelvam.</h4> <br>
+                 <h5>Every great design with an <br> Even better story</h5> <br>
+                    Since beginning my journey as a freelacer designer nearly 6 <br>
+                    Months ago,I've done remote work for agencies,indivduals and <br>
+                    Consulted for startups and collabrated with talented people <br>
+                    While learning new,stuffs,quiety and perpetually working an <br>
+                    Improving my chopsone design problem at a time. 
+              </div>
+              <div class="abt-three">
+                  <div class="socialone">
+                    <a href="https://facebook.com/nitheeshkumarthiruchelvam">Facebook</a>   
+                  </div>
+                  <div class="socialtwo">
+                    <a href="https://linkedin.com/in/nithish1b4">Linkedin</a>   
+                  </div>
+                  <div class="socialthree">
+                    <a href="https://api.whatsapp.com/send?phone=+919344150665">Whatsapp</a>   
+                  </div>
+                  <div class="socialfour">
+                    <a href="#">Behance</a>   
+                  </div>
+                  <div class="socialfive">
+                    <a href="https://mailto:nithishthirucelvam007@gmail.com">MailUs</a>   
+                  </div>
+                  <div class="socialsix">
+                    <a href="https://twitter.com/NithishkumarTh2">Twitter</a>   
+                  </div>
+              </div>
+              <div class="abt-four">
+                  <div class="html">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="98"
+                    ></div>
+                   
+                     <h3 style="margin-left: 16px;">HTML</h3>
+                  </div>
+                  <div class="css">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="99"
+                    ></div>
+                   
+                    <h3 style="margin-left: 16px;">CSS3</h3>
+                 </div>
+                 <div class="js">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="95"
+                    ></div>
+                   
+                    <h3>Javascript</h3>
+                 </div>
+                 <div class="aos">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="97"
+                    ></div>
+                   
+                    <h3>AOS library</h3>
+                 </div>
+                 <div class="react">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="96"
+                    ></div>
+                   
+                    <h3>React.js</h3>
+                 </div>
+                 <div class="bootstrap">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="87"
+                    ></div>
+                   
+                    <h3>Bootstrap</h3>
+                 </div>
+                 <div class="tailwind">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="76"
+                    ></div>
+                   
+                    <h3 style="margin-left: 6px;">Tailwind</h3>
+                 </div>
+                 <div class="api">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="95"
+                    ></div>
+                   
+                    <h3 style="margin-left: 23px;">API</h3>
+                 </div>
+                 <div class="uiux">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="99"
+                    ></div>
+                   
+                    <h3 style="margin-left: 16px;">UI&UX</h3>
+                 </div>
+                 <div class="java">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="85"
+                    ></div>
+                   
+                    <h3 style="margin-left: 23px;" >Java</h3>
+                 </div>
+                 <div class="json">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="95"
+                    ></div>
+                   
+                    <h3 style="margin-left: 23px;">JSON</h3>
+                 </div>
+                 <div class="sql">
+                    <div data-preset="circle"
+                    class="ldBar label-center" data-value="95"
+                    ></div>
+                   
+                    <h3 style="margin-left: 23px;">SQL</h3>
+                 </div>
+             </div>
+             <div class="copyrights">
+               <center> DesignFreakers.com||@copyrights-2022</center>
+            </div>
+           </div>
+    </main>
+    <script>
+
+//after use this code to make some animation
+
+
+
+
+        //internal js
+          AOS.init();
+
+let scrollerId;
+let paused = true;
+
+function startScroll(){
+    let id = setInterval(function(){
+        window.scrollBy(0,2)
+        if(window.innerHeight + window.scrollY == document.body.offsetHeight){
+            stopScroll();
+        }
+    }, 0.3);
+    return id
+}
+function stopScroll(){
+    clearInterval(scrollerId);
+}
+document.body.addEventListener ('keypress', function(event){
+    if(event.which == 13 || event.keyCode == 13){
+        if(paused == true){
+            scrollerId = startScroll()
+            paused = false
+        }else{
+            stopScroll();
+            paused = true
+        }
+    }
+})
+
+
+
+//anime.js libaray codes(default)
+
+function animation(){
+    anime({
+        targets: '.one',
+        value: [0, 454],
+        round: 1,
+        easing: 'easeInOutExpo'
+        });
+    
+        anime({
+            targets: '.two',
+            value: [0, 53],
+            round: 1,
+            easing: 'easeInOutExpo'
+            });
+    
+            anime({
+                targets: '.three',
+                value: [0, 14],
+                round: 1,
+                easing: 'easeInOutExpo'
+                });
+    
+                anime({
+                    targets: '.four',
+                    value: [0, 257],
+                    round: 1,
+                    easing: 'easeInOutExpo'
+                    });
+}
+
+//Code from loading bar.js
+
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+    // Generated by LiveScript 1.3.1
+    var presets, simpleStr, wrap, slice$ = [].slice, toString$ = {}.toString;
+    presets = require('./presets').presets;
+    simpleStr = function(arr){
+      return arr.join('');
+    };
+    wrap = function(content){
+      return "data:image/svg+xml;base64," + btoa(content);
+    };
+    (function(){
+      var make, handler, ldBar;
+      make = {
+        head: function(viewBox){
+          return "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"" + viewBox + "\">";
+        },
+        gradient: function(dir, dur){
+          var colors, ret, len, gx, gy, x, y, i$, i, idx;
+          dir == null && (dir = 45);
+          dur == null && (dur = 1);
+          colors = slice$.call(arguments, 2);
+          ret = [this.head("0 0 100 100")];
+          len = colors.length * 4 + 1;
+          dir = dir * Math.PI / 180;
+          gx = Math.pow(Math.cos(dir), 2);
+          gy = Math.sqrt(gx - Math.pow(gx, 2));
+          if (dir > Math.PI * 0.25) {
+            gy = Math.pow(Math.sin(dir), 2);
+            gx = Math.sqrt(gy - Math.pow(gy, 2));
+          }
+          x = gx * 100;
+          y = gy * 100;
+          ret.push("<defs><linearGradient id=\"gradient\" x1=\"0\" x2=\"" + gx + "\" y1=\"0\" y2=\"" + gy + "\">");
+          for (i$ = 0; i$ < len; ++i$) {
+            i = i$;
+            idx = i * 100 / (len - 1);
+            ret.push("<stop offset=\"" + idx + "%\" stop-color=\"" + colors[i % colors.length] + "\"/>");
+          }
+          ret.push("</linearGradient></defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"400\" fill=\"url(#gradient)\">\n<animateTransform attributeName=\"transform\" type=\"translate\" from=\"-" + x + ",-" + y + "\"\nto=\"0,0\" dur=\"" + dur + "s\" repeatCount=\"indefinite\"/></rect></svg>");
+          return wrap(ret.join(""));
+        },
+        stripe: function(c1, c2, dur){
+          var ret, i;
+          c1 == null && (c1 = '#b4b4b4');
+          c2 == null && (c2 = '#e6e6e6');
+          dur == null && (dur = 1);
+          ret = [this.head("0 0 100 100")];
+          ret = ret.concat([
+            "<rect fill=\"" + c2 + "\" width=\"100\" height=\"100\"/>", "<g><g>", (function(){
+              var i$, results$ = [];
+              for (i$ = 0; i$ < 13; ++i$) {
+                i = i$;
+                results$.push(("<polygon fill=\"" + c1 + "\" ") + ("points=\"" + (-90 + i * 20) + ",100 " + (-100 + i * 20) + ",") + ("100 " + (-60 + i * 20) + ",0 " + (-50 + i * 20) + ",0 \"/>"));
+              }
+              return results$;
+            }()).join(""), "</g><animateTransform attributeName=\"transform\" type=\"translate\" ", "from=\"0,0\" to=\"20,0\" dur=\"" + dur + "s\" repeatCount=\"indefinite\"/></g></svg>"
+          ].join(""));
+          return wrap(ret);
+        },
+        bubble: function(c1, c2, count, dur, size, sw){
+          var ret, i$, i, idx, x, r, d;
+          c1 == null && (c1 = '#39d');
+          c2 == null && (c2 = '#9cf');
+          count == null && (count = 15);
+          dur == null && (dur = 1);
+          size == null && (size = 6);
+          sw == null && (sw = 1);
+          ret = [this.head("0 0 200 200"), "<rect x=\"0\" y=\"0\" width=\"200\" height=\"200\" fill=\"" + c1 + "\"/>"];
+          for (i$ = 0; i$ < count; ++i$) {
+            i = i$;
+            idx = -(i / count) * dur;
+            x = Math.random() * 184 + 8;
+            r = (Math.random() * 0.7 + 0.3) * size;
+            d = dur * (1 + Math.random() * 0.5);
+            ret.push(["<circle cx=\"" + x + "\" cy=\"0\" r=\"" + r + "\" fill=\"none\" stroke=\"" + c2 + "\" stroke-width=\"" + sw + "\">", "<animate attributeName=\"cy\" values=\"190;-10\" times=\"0;1\" ", "dur=\"" + d + "s\" begin=\"" + idx + "s\" repeatCount=\"indefinite\"/>", "</circle>", "<circle cx=\"" + x + "\" cy=\"0\" r=\"" + r + "\" fill=\"none\" stroke=\"" + c2 + "\" stroke-width=\"" + sw + "\">", "<animate attributeName=\"cy\" values=\"390;190\" times=\"0;1\" ", "dur=\"" + d + "s\" begin=\"" + idx + "s\" repeatCount=\"indefinite\"/>", "</circle>"].join(""));
+          }
+          return wrap(ret.join("") + "</svg>");
+        }
+      };
+      handler = {
+        queue: {},
+        running: false,
+        main: function(timestamp){
+          var keepon, removed, k, ref$, func, ret, this$ = this;
+          keepon = false;
+          removed = [];
+          for (k in ref$ = this.queue) {
+            func = ref$[k];
+            ret = func(timestamp);
+            if (!ret) {
+              removed.push(func);
+            }
+            keepon = keepon || ret;
+          }
+          for (k in ref$ = this.queue) {
+            func = ref$[k];
+            if (removed.indexOf(func) >= 0) {
+              delete this.queue[k];
+            }
+          }
+          if (keepon) {
+            return requestAnimationFrame(function(it){
+              return this$.main(it);
+            });
+          } else {
+            return this.running = false;
+          }
+        },
+        add: function(key, f){
+          var this$ = this;
+          if (!this.queue[key]) {
+            this.queue[key] = f;
+          }
+          if (!this.running) {
+            this.running = true;
+            return requestAnimationFrame(function(it){
+              return this$.main(it);
+            });
+          }
+        }
+      };
+      window.ldBar = ldBar = function(selector, option){
+        var xmlns, root, cls, idPrefix, id, domTree, newNode, x$, config, attr, that, isStroke, parseRes, dom, svg, text, group, length, path0, path1, patimg, img, ret, size, this$ = this;
+        option == null && (option = {});
+        xmlns = {
+          xlink: "http://www.w3.org/1999/xlink"
+        };
+        root = toString$.call(selector).slice(8, -1) === 'String' ? document.querySelector(selector) : selector;
+        if (!root.ldBar) {
+          root.ldBar = this;
+        } else {
+          return root.ldBar;
+        }
+        cls = root.getAttribute('class') || '';
+        if (!~cls.indexOf('ldBar')) {
+          root.setAttribute('class', cls + " ldBar");
+        }
+        idPrefix = "ldBar-" + Math.random().toString(16).substring(2);
+        id = {
+          key: idPrefix,
+          clip: idPrefix + "-clip",
+          filter: idPrefix + "-filter",
+          pattern: idPrefix + "-pattern",
+          mask: idPrefix + "-mask",
+          maskPath: idPrefix + "-mask-path"
+        };
+        domTree = function(n, o){
+          var k, v;
+          n = newNode(n);
+          for (k in o) {
+            v = o[k];
+            if (k !== 'attr') {
+              n.appendChild(domTree(k, v || {}));
+            }
+          }
+          n.attrs(o.attr || {});
+          return n;
+        };
+        newNode = function(n){
+          return document.createElementNS("http://www.w3.org/2000/svg", n);
+        };
+        x$ = document.body.__proto__.__proto__.__proto__;
+        x$.text = function(t){
+          return this.appendChild(document.createTextNode(t));
+        };
+        x$.attrs = function(o){
+          var k, v, ret, results$ = [];
+          for (k in o) {
+            v = o[k];
+            ret = /([^:]+):([^:]+)/.exec(k);
+            if (!ret || !xmlns[ret[1]]) {
+              results$.push(this.setAttribute(k, v));
+            } else {
+              results$.push(this.setAttributeNS(xmlns[ret[1]], k, v));
+            }
+          }
+          return results$;
+        };
+        x$.styles = function(o){
+          var k, v, results$ = [];
+          for (k in o) {
+            v = o[k];
+            results$.push(this.style[k] = v);
+          }
+          return results$;
+        };
+        x$.append = function(n){
+          var r;
+          return this.appendChild(r = document.createElementNS("http://www.w3.og/2000/svg", n));
+        };
+        x$.attr = function(n, v){
+          if (v != null) {
+            return this.setAttribute(n, v);
+          } else {
+            return this.getAttribute(n);
+          }
+        };
+        config = {
+          "type": 'stroke',
+          "img": '',
+          "path": 'M10 10L90 10M90 8M90 12',
+          "fill-dir": 'btt',
+          "fill": '#25b',
+          "fill-background": '#ddd',
+          "fill-background-extrude": 3,
+          "pattern-size": null,
+          "stroke-dir": 'normal',
+          "stroke": '#25b',
+          "stroke-width": '3',
+          "stroke-trail": '#ddd',
+          "stroke-trail-width": 0.5,
+          "duration": 1,
+          "easing": 'linear',
+          "value": 0,
+          "img-size": null,
+          "bbox": null,
+          "set-dim": true,
+          "aspect-ratio": "xMidYMid",
+          "transition-in": false,
+          "min": 0,
+          "max": 100,
+          "precision": 0,
+          "padding": undefined
+        };
+        config["preset"] = root.attr("data-preset") || option["preset"];
+        if (config.preset != null) {
+          import$(config, presets[config.preset]);
+        }
+        for (attr in config) {
+          if (that = that = root.attr("data-" + attr)) {
+            config[attr] = that;
+          }
+        }
+        import$(config, option);
+        if (config.img) {
+          config.path = null;
+        }
+        isStroke = config.type === 'stroke';
+        parseRes = function(v){
+          var parser, ret;
+          parser = /data:ldbar\/res,([^()]+)\(([^)]+)\)/;
+          ret = parser.exec(v);
+          if (!ret) {
+            return v;
+          }
+          return ret = make[ret[1]].apply(make, ret[2].split(','));
+        };
+        config.fill = parseRes(config.fill);
+        config.stroke = parseRes(config.stroke);
+        if (config["set-dim"] === 'false') {
+          config["set-dim"] = false;
+        }
+        dom = {
+          attr: {
+            "xmlns:xlink": 'http://www.w3.org/1999/xlink',
+            preserveAspectRatio: config["aspect-ratio"],
+            width: "100%",
+            height: "100%"
+          },
+          defs: {
+            filter: {
+              attr: {
+                id: id.filter,
+                x: -1,
+                y: -1,
+                width: 3,
+                height: 3
+              },
+              feMorphology: {
+                attr: {
+                  operator: +config["fill-background-extrude"] >= 0 ? 'dilate' : 'erode',
+                  radius: Math.abs(+config["fill-background-extrude"])
+                }
+              },
+              feColorMatrix: {
+                attr: {
+                  values: '0 0 0 0 1    0 0 0 0 1    0 0 0 0 1    0 0 0 1 0',
+                  result: "cm"
+                }
+              }
+            },
+            mask: {
+              attr: {
+                id: id.mask
+              },
+              image: {
+                attr: {
+                  "xlink:href": config.img,
+                  filter: "url(#" + id.filter + ")",
+                  x: 0,
+                  y: 0,
+                  width: 100,
+                  height: 100,
+                  preserveAspectRatio: config["aspect-ratio"]
+                }
+              }
+            },
+            g: {
+              mask: {
+                attr: {
+                  id: id.maskPath
+                },
+                path: {
+                  attr: {
+                    d: config.path || "",
+                    fill: '#fff',
+                    stroke: '#fff',
+                    filter: "url(#" + id.filter + ")"
+                  }
+                }
+              }
+            },
+            clipPath: {
+              attr: {
+                id: id.clip
+              },
+              rect: {
+                attr: {
+                  'class': 'mask',
+                  fill: '#000'
+                }
+              }
+            },
+            pattern: {
+              attr: {
+                id: id.pattern,
+                patternUnits: 'userSpaceOnUse',
+                x: 0,
+                y: 0,
+                width: 300,
+                height: 300
+              },
+              image: {
+                attr: {
+                  x: 0,
+                  y: 0,
+                  width: 300,
+                  height: 300
+                }
+              }
+            }
+          }
+        };
+        svg = domTree('svg', dom);
+        text = document.createElement('div');
+        text.setAttribute('class', 'ldBar-label');
+        root.appendChild(svg);
+        root.appendChild(text);
+        group = [0, 0];
+        length = 0;
+        this.fit = function(){
+          var that, box, d, rect;
+          if (that = config["bbox"]) {
+            box = that.split(' ').map(function(it){
+              return +it.trim();
+            });
+            box = {
+              x: box[0],
+              y: box[1],
+              width: box[2],
+              height: box[3]
+            };
+          } else {
+            box = group[1].getBBox();
+          }
+          if (!box || box.width === 0 || box.height === 0) {
+            box = {
+              x: 0,
+              y: 0,
+              width: 100,
+              height: 100
+            };
+          }
+          d = Math.max.apply(null, ['stroke-width', 'stroke-trail-width', 'fill-background-extrude'].map(function(it){
+            return config[it];
+          })) * 1.5;
+          if (config["padding"] != null) {
+            d = +config["padding"];
+          }
+          svg.attrs({
+            viewBox: [box.x - d, box.y - d, box.width + d * 2, box.height + d * 2].join(" ")
+          });
+          if (config["set-dim"]) {
+            ['width', 'height'].map(function(it){
+              if (!root.style[it] || this$.fit[it]) {
+                root.style[it] = (box[it] + d * 2) + "px";
+                return this$.fit[it] = true;
+              }
+            });
+          }
+          rect = group[0].querySelector('rect');
+          if (rect) {
+            return rect.attrs({
+              x: box.x - d,
+              y: box.y - d,
+              width: box.width + d * 2,
+              height: box.height + d * 2
+            });
+          }
+        };
+        if (config.path) {
+          if (isStroke) {
+            group[0] = domTree('g', {
+              path: {
+                attr: {
+                  d: config.path,
+                  fill: 'none',
+                  'class': 'baseline'
+                }
+              }
+            });
+          } else {
+            group[0] = domTree('g', {
+              rect: {
+                attr: {
+                  x: 0,
+                  y: 0,
+                  width: 100,
+                  height: 100,
+                  mask: "url(#" + id.maskPath + ")",
+                  fill: config["fill-background"],
+                  'class': 'frame'
+                }
+              }
+            });
+          }
+          svg.appendChild(group[0]);
+          group[1] = domTree('g', {
+            path: {
+              attr: {
+                d: config.path,
+                'class': isStroke ? 'mainline' : 'solid',
+                "clip-path": config.type === 'fill' ? "url(#" + id.clip + ")" : ''
+              }
+            }
+          });
+          svg.appendChild(group[1]);
+          path0 = group[0].querySelector(isStroke ? 'path' : 'rect');
+          path1 = group[1].querySelector('path');
+          if (isStroke) {
+            path1.attrs({
+              fill: 'none'
+            });
+          }
+          patimg = svg.querySelector('pattern image');
+          img = new Image();
+          img.addEventListener('load', function(){
+            var box, that;
+            box = (that = config["pattern-size"])
+              ? {
+                width: +that,
+                height: +that
+              }
+              : img.width && img.height
+                ? {
+                  width: img.width,
+                  height: img.height
+                }
+                : {
+                  width: 300,
+                  height: 300
+                };
+            svg.querySelector('pattern').attrs({
+              width: box.width,
+              height: box.height
+            });
+            return patimg.attrs({
+              width: box.width,
+              height: box.height
+            });
+          });
+          if (/.+\..+|^data:/.exec(!isStroke
+            ? config.fill
+            : config.stroke)) {
+            img.src = !isStroke
+              ? config.fill
+              : config.stroke;
+            patimg.attrs({
+              "xlink:href": img.src
+            });
+          }
+          if (isStroke) {
+            path0.attrs({
+              stroke: config["stroke-trail"],
+              "stroke-width": config["stroke-trail-width"]
+            });
+            path1.attrs({
+              "stroke-width": config["stroke-width"],
+              stroke: /.+\..+|^data:/.exec(config.stroke)
+                ? "url(#" + id.pattern + ")"
+                : config.stroke
+            });
+          }
+          if (config.fill && !isStroke) {
+            path1.attrs({
+              fill: /.+\..+|^data:/.exec(config.fill)
+                ? "url(#" + id.pattern + ")"
+                : config.fill
+            });
+          }
+          length = path1.getTotalLength();
+          this.fit();
+          this.inited = true;
+        } else if (config.img) {
+          if (config["img-size"]) {
+            ret = config["img-size"].split(',');
+            size = {
+              width: +ret[0],
+              height: +ret[1]
+            };
+          } else {
+            size = {
+              width: 100,
+              height: 100
+            };
+          }
+          group[0] = domTree('g', {
+            rect: {
+              attr: {
+                x: 0,
+                y: 0,
+                width: 100,
+                height: 100,
+                mask: "url(#" + id.mask + ")",
+                fill: config["fill-background"]
+              }
+            }
+          });
+          svg.querySelector('mask image').attrs({
+            width: size.width,
+            height: size.height
+          });
+          group[1] = domTree('g', {
+            image: {
+              attr: {
+                width: size.width,
+                height: size.height,
+                x: 0,
+                y: 0,
+                preserveAspectRatio: config["aspect-ratio"],
+                "clip-path": config.type === 'fill' ? "url(#" + id.clip + ")" : '',
+                "xlink:href": config.img,
+                'class': 'solid'
+              }
+            }
+          });
+          img = new Image();
+          img.addEventListener('load', function(){
+            var ret, size, v;
+            if (config["img-size"]) {
+              ret = config["img-size"].split(',');
+              size = {
+                width: +ret[0],
+                height: +ret[1]
+              };
+            } else if (img.width && img.height) {
+              size = {
+                width: img.width,
+                height: img.height
+              };
+            } else {
+              size = {
+                width: 100,
+                height: 100
+              };
+            }
+            svg.querySelector('mask image').attrs({
+              width: size.width,
+              height: size.height
+            });
+            group[1].querySelector('image').attrs({
+              width: size.width,
+              height: size.height
+            });
+            this$.fit();
+            v = this$.value;
+            this$.value = undefined;
+            this$.set(v, true);
+            return this$.inited = true;
+          });
+          img.src = config.img;
+          svg.appendChild(group[0]);
+          svg.appendChild(group[1]);
+        }
+        svg.attrs({
+          width: '100%',
+          height: '100%'
+        });
+        this.transition = {
+          value: {
+            src: 0,
+            des: 0
+          },
+          time: {},
+          ease: function(t, b, c, d){
+            t = t / (d * 0.5);
+            if (t < 1) {
+              return c * 0.5 * t * t + b;
+            }
+            t = t - 1;
+            return -c * 0.5 * (t * (t - 2) - 1) + b;
+          },
+          handler: function(time, doTransition){
+            var ref$, min, max, prec, dv, dt, dur, v, p, node, style, box, dir;
+            doTransition == null && (doTransition = true);
+            if (this.time.src == null) {
+              this.time.src = time;
+            }
+            ref$ = [config["min"], config["max"], 1 / config["precision"]], min = ref$[0], max = ref$[1], prec = ref$[2];
+            ref$ = [this.value.des - this.value.src, (time - this.time.src) * 0.001, +config["duration"] || 1], dv = ref$[0], dt = ref$[1], dur = ref$[2];
+            v = doTransition
+              ? this.ease(dt, this.value.src, dv, dur)
+              : this.value.des;
+            if (config.precision) {
+              v = Math.round(v * prec) / prec;
+            } else if (doTransition) {
+              v = Math.round(v);
+            }
+            v >= min || (v = min);
+            v <= max || (v = max);
+            text.textContent = v;
+            p = 100.0 * (v - min) / (max - min);
+            if (isStroke) {
+              node = path1;
+              style = {
+                "stroke-dasharray": config["stroke-dir"] === 'reverse'
+                  ? "0 " + length * (100 - p) * 0.01 + " " + length * p * 0.01 + " 0"
+                  : p * 0.01 * length + " " + ((100 - p) * 0.01 * length + 1)
+              };
+            } else {
+              box = group[1].getBBox();
+              dir = config["fill-dir"];
+              style = dir === 'btt' || !dir
+                ? {
+                  y: box.y + box.height * (100 - p) * 0.01,
+                  height: box.height * p * 0.01,
+                  x: box.x,
+                  width: box.width
+                }
+                : dir === 'ttb'
+                  ? {
+                    y: box.y,
+                    height: box.height * p * 0.01,
+                    x: box.x,
+                    width: box.width
+                  }
+                  : dir === 'ltr'
+                    ? {
+                      y: box.y,
+                      height: box.height,
+                      x: box.x,
+                      width: box.width * p * 0.01
+                    }
+                    : dir === 'rtl' ? {
+                      y: box.y,
+                      height: box.height,
+                      x: box.x + box.width * (100 - p) * 0.01,
+                      width: box.width * p * 0.01
+                    } : void 8;
+              node = svg.querySelector('rect');
+            }
+            node.attrs(style);
+            if (dt >= dur) {
+              delete this.time.src;
+              return false;
+            }
+            return true;
+          },
+          start: function(src, des, doTransition){
+            var ref$, this$ = this;
+            ref$ = this.value;
+            ref$.src = src;
+            ref$.des = des;
+            !!(root.offsetWidth || root.offsetHeight || root.getClientRects().length);
+            if (!doTransition || !(root.offsetWidth || root.offsetHeight || root.getClientRects().length)) {
+              this.time.src = 0;
+              this.handler(1000, false);
+              return;
+            }
+            return handler.add(id.key, function(time){
+              return this$.handler(time);
+            });
+          }
+        };
+        this.set = function(v, doTransition){
+          var src, des;
+          doTransition == null && (doTransition = true);
+          src = this.value || 0;
+          if (v != null) {
+            this.value = v;
+          } else {
+            v = this.value;
+          }
+          des = this.value;
+          return this.transition.start(src, des, doTransition);
+        };
+        this.set(+config.value || 0, config["transition-in"]) || false;
+        return this;
+      };
+      return window.addEventListener('load', function(){
+        var i$, ref$, len$, node, results$ = [];
+        for (i$ = 0, len$ = (ref$ = document.querySelectorAll('.ldBar')).length; i$ < len$; ++i$) {
+          node = ref$[i$];
+          if (!node.ldBar) {
+            results$.push(node.ldBar = new ldBar(node));
+          }
+        }
+        return results$;
+      }, false);
+    })();
+    module.exports = ldBar;
+    function import$(obj, src){
+      var own = {}.hasOwnProperty;
+      for (var key in src) if (own.call(src, key)) obj[key] = src[key];
+      return obj;
+    }
+    
+    },{"./presets":2}],2:[function(require,module,exports){
+    // Generated by LiveScript 1.3.1
+    var presets, out$ = typeof exports != 'undefined' && exports || this;
+    out$.presets = presets = {
+      rainbow: {
+        "type": 'stroke',
+        "path": 'M10 10L90 10',
+        "stroke": 'data:ldbar/res,gradient(0,1,#a551df,#fd51ad,#ff7f82,#ffb874,#ffeb90)',
+        "bbox": "10 10 80 10"
+      },
+      energy: {
+        "type": 'fill',
+        "path": 'M15 5L85 5A5 5 0 0 1 85 15L15 15A5 5 0 0 1 15 5',
+        "stroke": '#f00',
+        "fill": 'data:ldbar/res,gradient(45,2,#4e9,#8fb,#4e9)',
+        "fill-dir": "ltr",
+        "fill-background": '#444',
+        "fill-background-extrude": 1,
+        "bbox": "10 5 80 10"
+      },
+      stripe: {
+        "type": 'fill',
+        "path": 'M15 5L85 5A5 5 0 0 1 85 15L15 15A5 5 0 0 1 15 5',
+        "stroke": '#f00',
+        "fill": 'data:ldbar/res,stripe(#25b,#58e,1)',
+        "fill-dir": "ltr",
+        "fill-background": '#ddd',
+        "fill-background-extrude": 1,
+        "bbox": "10 5 80 10"
+      },
+      text: {
+        "type": 'fill',
+        "img": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"70\" height=\"20\" viewBox=\"0 0 70 20\"><text x=\"35\" y=\"10\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"arial\">LOADING</text></svg>",
+        "fill-background-extrude": 1.3,
+        "pattern-size": 100,
+        "fill-dir": "ltr",
+        "img-size": "70,20",
+        "bbox": "0 0 70 20"
+      },
+      line: {
+        "type": 'stroke',
+        "path": 'M10 10L90 10',
+        "stroke": '#25b',
+        "stroke-width": 3,
+        "stroke-trail": '#ddd',
+        "stroke-trail-width": 1,
+        "bbox": "10 10 80 10"
+      },
+      fan: {
+        "type": 'stroke',
+        "path": 'M10 90A40 40 0 0 1 90 90',
+        "fill-dir": 'btt',
+        "fill": '#25b',
+        "fill-background": '#ddd',
+        "fill-background-extrude": 3,
+        "stroke-dir": 'normal',
+        "stroke": '#25b',
+        "stroke-width": '3',
+        "stroke-trail": '#ddd',
+        "stroke-trail-width": 0.5,
+        "bbox": "10 50 80 40"
+      },
+      circle: {
+        "type": 'stroke',
+        "path": 'M50 10A40 40 0 0 1 50 90A40 40 0 0 1 50 10',
+        "fill-dir": 'btt',
+        "fill": '#25b',
+        "fill-background": '#ddd',
+        "fill-background-extrude": 3,
+        "stroke-dir": 'normal',
+        "stroke": '#25b',
+        "stroke-width": '3',
+        "stroke-trail": '#ddd',
+        "stroke-trail-width": 0.5,
+        "bbox": "10 10 80 80"
+      },
+      bubble: {
+        "type": 'fill',
+        "path": 'M50 10A40 40 0 0 1 50 90A40 40 0 0 1 50 10',
+        "fill-dir": 'btt',
+        "fill": 'data:ldbar/res,bubble(#39d,#cef)',
+        "pattern-size": "150",
+        "fill-background": '#ddd',
+        "fill-background-extrude": 2,
+        "stroke-dir": 'normal',
+        "stroke": '#25b',
+        "stroke-width": '3',
+        "stroke-trail": '#ddd',
+        "stroke-trail-width": 0.5,
+        "bbox": "10 10 80 80"
+      }
+    };
+    
+    },{}]},{},[1]);
+    
+ 
+    </script>
+</body>
+</html>
